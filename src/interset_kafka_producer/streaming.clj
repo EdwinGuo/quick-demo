@@ -11,7 +11,7 @@
   (-> (SparkConf.)
       (c/master "spark://127.0.0.1:7077")
       (c/app-name "streaming test")
-      (c/jars ["/Users/EdwinGuo/cenx/interset-kafka-producer/target/interset-kafka-producer-0.1.0-SNAPSHOT-standalone.jar"])))
+      (c/jars ["/*/target/interset-kafka-producer-0.1.0-SNAPSHOT-standalone.jar"])))
 
 (defn do-count
   []
